@@ -1,7 +1,6 @@
 import React from 'react'
 import Profile from '../Profile/Profile'
 // import PropTypes from 'prop-types'
-// import user from './/user.json'
 
 const ProfileList = ({ prop }) => (
 	<Profile

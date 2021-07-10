@@ -1,13 +1,18 @@
 import React from 'react'
-// import Profile from './components/Profile/Profile'
 import ProfileList from './components/ProfileList/ProfileList'
-import user from './user.json'
+import user from './data/user.json'
+import statisticalData from './data/statistical-data.json'
+import Statistics from './components/Statistics/Statistics'
+import friends from './data/friends.json'
+import FriendList from './components/FriendList/FriendList'
 
 const App = () => {
 	return (
-		<div>
+		<>
 			<ProfileList prop={user} />
-		</div>
+			<Statistics items={statisticalData} />
+			<FriendList items={friends} />
+		</>
 	)
 }
 
