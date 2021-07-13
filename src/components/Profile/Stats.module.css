@@ -1,0 +1,24 @@
+.stats {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: lightgray;
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;
+}
+.item:not(:last-child) {
+  border-right: 1px solid;
+}
+
+.label {
+  font-size: 12px;
+  margin: auto;
+  color: gray;
+}
+.quantity {
+  margin: auto;
+  margin-top: 10px;
+}
